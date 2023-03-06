@@ -105,19 +105,6 @@ resource "aws_route_table_association" "priv-rt-1b-associate" {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## OUTPUTS DO NOSSO TF ##
 output "vpc_vorx_prod_id" {
 value = aws_vpc.vorx-vpc-prod.id
